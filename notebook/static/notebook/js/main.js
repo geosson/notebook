@@ -98,7 +98,7 @@ require([
     common_config.load();
 
     // Instantiate the main objects
-    
+
     var page = new page.Page();
     var pager = new pager.Pager('div#pager', {
         events: events});
@@ -122,6 +122,7 @@ require([
         keyboard_manager: keyboard_manager,
         save_widget: save_widget,
         contents: contents,
+        actions: acts,
         config: config_section},
         common_options));
     var login_widget = new loginwidget.LoginWidget('span#login_widget', common_options);
