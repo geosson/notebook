@@ -1,9 +1,9 @@
 # Paddle Notebook
 Base on Jupyter notebook 
 
-[source code install](https://github.com/PaddlePaddle/notebook/blob/develop/paddle-notebook-install)
+[Source Code Install](https://github.com/PaddlePaddle/notebook/blob/develop/paddle-notebook-install)
 
-# Jupyter Notebook
+About Jupyter Notebook
 
 [![Google Group](https://img.shields.io/badge/-Google%20Group-lightgrey.svg)](https://groups.google.com/forum/#!forum/jupyter)
 [![Build Status](https://travis-ci.org/jupyter/notebook.svg?branch=master)](https://travis-ci.org/jupyter/notebook)
