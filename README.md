@@ -1,3 +1,6 @@
+# Paddle Notebook
+![source code install](https://github.com/PaddlePaddle/notebook/blob/develop/paddle-notebook-install)
+Base on Jupyter notebook 
 # Jupyter Notebook
 
 [![Google Group](https://img.shields.io/badge/-Google%20Group-lightgrey.svg)](https://groups.google.com/forum/#!forum/jupyter)
