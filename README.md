@@ -1,7 +1,7 @@
 # Paddle Notebook
-source code install(https://github.com/PaddlePaddle/notebook/blob/develop/paddle-notebook-install)
-
 Base on Jupyter notebook 
+
+[source code install](https://github.com/PaddlePaddle/notebook/blob/develop/paddle-notebook-install)
 
 # Jupyter Notebook
 
