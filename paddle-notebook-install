@@ -1,9 +1,10 @@
-安装步骤
+paddle-notebook安装步骤
 1. 安装python （建议2.7.3）和 pip （建议pip-9.0.1）
-2. pip install jupyter  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
-3. 当前notebook工程目录执行
-   python setup.py js css
-   python setup.py install
-   pip install -e .
-3. 启动服务
+2. pip install setuptools pip --upgrade  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+3. pip install jupyter  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+4. 当前notebook工程目录执行
+   只压缩js和css执行 python setup.py js css
+   源码编译 python setup.py install
+   安装egg包 pip install -e .
+5. 启动服务
    jupyter notebook --no-browser  --ip=10.99.110.233  --port 8094  --NotebookApp.token='' --NotebookApp.disable_check_xsrf=True
