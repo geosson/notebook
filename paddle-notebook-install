@@ -1,0 +1,8 @@
+安装步骤
+1. pip install jupyter  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+2. 当前工程目录执行
+   python setup.py js css
+   python setup.py install
+   pip install -e .
+3. 启动服务
+   jupyter notebook --no-browser  --ip=10.99.110.233  --port 8094  --NotebookApp.token='' --NotebookApp.disable_check_xsrf=True
